@@ -1,1 +1,118 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kerstin Forsberg</title>
+<style>
+    :root {
+        --text: #1a1a1a;
+        --muted: #555;
+        --rule: #e5e5e5;
+        --link: #0b5fa5;
+        --bg: #fdfdfd;
+    }
+    html { box-sizing: border-box; }
+    *, *::before, *::after { box-sizing: inherit; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.55;
+        max-width: 42rem;
+        margin: 3rem auto;
+        padding: 0 1.25rem;
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin: 0 0 0.5rem;
+        letter-spacing: -0.01em;
+    }
+    h2 {
+        font-size: 1.15rem;
+        font-weight: 600;
+        margin: 2.5rem 0 0.75rem;
+        padding-bottom: 0.35rem;
+        border-bottom: 1px solid var(--rule);
+    }
+    p { margin: 0.75rem 0; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul.files {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    ul.files li {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--rule);
+    }
+    ul.files li:last-child { border-bottom: none; }
+    code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.9em;
+        background: #f3f3f3;
+        padding: 0.1em 0.35em;
+        border-radius: 3px;
+    }
+    .desc {
+        color: var(--muted);
+        display: block;
+        font-size: 0.95em;
+        margin-top: 0.15rem;
+    }
+    footer {
+        margin-top: 3rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--rule);
+        color: var(--muted);
+        font-size: 0.9em;
+    }
+</style>
+</head>
+<body>
+
+<h1>Kerstin Forsberg</h1>
+<p style="color:#555; font-size:1.05rem; margin:-0.25rem 0 1.5rem; line-height:1.4;">Information architect, working with clinical data standards, linked data and AI-readiness. Based in the Göteborg area, Sweden.</p>
+
+<p>I am doing this semi-retired, after 25 years in clinical trial data, on problems that matter. Problems that now can be addressed by using AI to apply sound information architecture principles on existing models and vocabulary standards - and on the data itself, when it actually uses them.</p>
+
+<h2>Work</h2>
+
+<ul class="files">
+    <li>
+        <a href="https://kerfors.github.io/cdisc-for-ai/"><strong>CDISC for AI</strong></a>
+        <span class="desc">Explorative work on the behaviour of the CDISC standards, with machine-actionable reference files built from SDTM CT, NCIt and COSMoS.</span>
+    </li>
+    <li>
+        <a href="https://kerfors.github.io/usdm-rdf/"><strong>usdm-rdf</strong></a>
+        <span class="desc">The CDISC Unified Study Definitions Model (USDM) v4 rendered as RDF/OWL, generated mechanically from the published model. Draft.</span>
+    </li>
+    <li>
+        <a href="https://kerfors.github.io/cosmos-rdf/"><strong>cosmos-rdf</strong></a>
+        <span class="desc">CDISC COSMoS (Biomedical Concepts and SDTM Dataset Specializations) rendered as RDF/OWL, as published. Early, exploratory work.</span>
+    </li>
+    <li>
+        <a href="https://kerfors.github.io/soa2usdm-collections/"><strong>SoA2USDM Collections</strong></a>
+        <span class="desc">Machine-actionable extractions of Schedules of Activities from published clinical trial protocols.</span>
+    </li>
+</ul>
+
+<h2>Archive</h2>
+
+<ul class="files">
+    <li>
+        <a href="https://kerfors.github.io/tweetsreborn/"><strong>Tweets reborn</strong></a>
+        <span class="desc">My archived tweets, as a static site.</span>
+    </li>
+</ul>
+
+<footer>
+    <a href="https://github.com/kerfors">GitHub</a> · <a href="https://www.linkedin.com/in/kerfors/">LinkedIn</a><br>
+    kerfors.com is registered, still to be taken into use.
+</footer>
+
+</body>
+</html>
